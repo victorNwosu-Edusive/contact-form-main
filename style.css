@@ -49,11 +49,22 @@ input[type="text"], [type="email"]{
     padding:10px;
 }
 
+input[type="text"], [type="email"]:focus{
+    border: 1.5px solid rgb(0, 89, 55);
+    transition: 0.3s ease-out;
+}
+
+
 textarea{
     outline: none;
     border: 1.5px solid rgb(173, 189, 183);
     border-radius: 5px;
     padding:10px;
+}
+
+textarea:focus{
+    border: 1.5px solid rgb(0, 89, 55);
+    transition: 0.3s ease-out;
 }
 
 .checkbox-consent{
