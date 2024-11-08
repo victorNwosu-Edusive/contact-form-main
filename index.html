@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+</head>
+<body>
+  <form action="get" class="form-container">
+    <div class="form-heading">
+      <p class="heading">Contact Us</p>
+    </div>
+    <div class="form-row">
+      <div class="input-group">
+        <label for="">First Name *</label>
+        <input type="text" name="firstname" id="" required>
+      </div>
+
+      <div class="input-group">
+        <label for="">Last Name *</label>
+        <input type="text" name="firstname" id="" required>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="input-group">
+        <label for="">Email Address *</label>
+        <input type="email" name="email" id="" required>
+      </div>
+    </div>
+
+    <label for="">Query Type *</label>
+    <div class="form-row">
+      <div class="input-group-container">
+        <div class="radio-container">
+        <input type="radio" name="radio" id="" required><p>General Enquiry</p>
+        </div>
+      
+        <div class="radio-container">
+        <input type="radio" name="radio" id="" required><p>Support Request</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="form-row">
+      <div class="input-group">
+        <label for="">Message *</label>
+        <textarea name="message" id="" required></textarea>
+      </div>
+    </div>
+
+    <div class="form-row checkbox-consent">
+    <input type="checkbox" name="consent" id="" required><p>I consent to being contacted by the team *</p>
+    </div>
+    <button>Submit</button>
+    
+  </form>
+ 
+</body>
+</html>
