@@ -54,6 +54,19 @@ input:focus{
     transition: 0.3s ease-out;
 }
 
+input[type="radio"]{ 
+    appearance: none; 
+    border: 1.5px solid rgb(173, 189, 183);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+input[type="radio"]:checked{  
+    border: 6px solid rgb(0, 89, 55);  
+}
+
 
 textarea{
     outline: none;
