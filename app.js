@@ -37,6 +37,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     } else {
         document.getElementById('error-message').innerText = '';
         alert('Form submitted successfully!');
+        document.getElementById('contact-form').reset();
         // Proceed with form submission (e.g., using AJAX or a simple form submit)
         // this.submit();
     }
