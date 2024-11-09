@@ -1,72 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
-  
-  <title>Frontend Mentor | Contact form</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
 
-</head>
-<body>
-  <form action="" class="form-container" id="contact-form">
-    <div class="form-heading">
-      <p class="heading">Contact Us</p>
-    </div>
-    <div class="form-row">
-      <div class="input-group">
-        <label for="">First Name *</label>
-        <input type="text" name="firstname" id="first-name" required>
-        <div id="error-message"></div>
+    <title>Frontend Mentor | Contact form</title>
+  </head>
+  <body>
+    <form action="" class="form-container" id="contact-form">
+      <div class="form-heading">
+        <p class="heading">Contact Us</p>
       </div>
-
-      <div class="input-group">
-        <label for="">Last Name *</label>
-        <input type="text" name="lastname" id="last-name" required>
-        <div id="error-message"></div>
-      </div>
-    </div>
-
-    <div class="form-row">
-      <div class="input-group">
-        <label for="">Email Address *</label>
-        <input type="email" name="email" id="email-address" required>
-        <div id="error-message"></div>
-      </div>
-    </div>
-
-    <label for="">Query Type *</label>
-    <div class="form-row">
-      <div class="input-group-container">
-        <div class="radio-container">
-        <input type="radio" name="radio" id="general-enquiry" required><p>General Enquiry</p>
+      <div class="form-row">
+        <div class="input-group">
+          <label for="">First Name *</label>
+          <input type="text" name="firstname" id="first-name" required />
+          <div id="error-message"></div>
         </div>
-      
-        <div class="radio-container">
-        <input type="radio" name="radio" id="support-request" required><p>Support Request</p>
+
+        <div class="input-group">
+          <label for="">Last Name *</label>
+          <input type="text" name="lastname" id="last-name" required />
+          <div id="error-message"></div>
         </div>
-        <div id="error-message"></div>
       </div>
-    </div>
 
-    
-    <div class="form-row">
-      <div class="input-group">
-        <label for="">Message *</label>
-        <textarea name="message" id="message" required></textarea>
-        <div id="error-message"></div>
+      <div class="form-row">
+        <div class="input-group">
+          <label for="">Email Address *</label>
+          <input type="email" name="email" id="email-address" required />
+          <div id="error-message"></div>
+        </div>
       </div>
-    </div>
 
-    <div class="form-row checkbox-consent">
-    <input type="checkbox" name="consent" id="checkbox-checked" required><p>I consent to being contacted by the team *</p>
-    </div>
-    <button type="submit" onclick="validate()">Submit</button>
-    
-  </form>
- 
-</body>
+      <label for="">Query Type *</label>
+      <div class="form-row">
+        <div class="input-group-container">
+          <div class="radio-container">
+            <input type="radio" name="radio" id="general-enquiry" required />
+            <p>General Enquiry</p>
+          </div>
+
+          <div class="radio-container">
+            <input type="radio" name="radio" id="support-request" required />
+            <p>Support Request</p>
+          </div>
+          <div id="error-message"></div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="input-group">
+          <label for="">Message *</label>
+          <textarea name="message" id="message" required></textarea>
+          <div id="error-message"></div>
+        </div>
+      </div>
+
+      <div class="form-row checkbox-consent">
+        <input type="checkbox" name="consent" id="checkbox-checked" required />
+        <p>I consent to being contacted by the team *</p>
+      </div>
+      <button type="submit" onclick="validate()">Submit</button>
+    </form>
+  </body>
 </html>
