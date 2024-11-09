@@ -36,7 +36,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
         document.getElementById('error-message').innerText = errorMessages.join('\n');
     } else {
         document.getElementById('error-message').innerText = '';
-        alert('Form submitted successfully!');
+        alert('Form submitted successfully!, We will get back to you');
         document.getElementById('contact-form').reset();
         // Proceed with form submission (e.g., using AJAX or a simple form submit)
         // this.submit();
