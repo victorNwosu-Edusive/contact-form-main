@@ -108,6 +108,11 @@ label{
     margin-bottom: 5px;
 }
 
+#error-message{
+    color:hsl(0, 66%, 54%);
+    font-size:10px;
+}
+
 @media only screen and (max-width: 768px) {
     .form-row{
         display: block;
