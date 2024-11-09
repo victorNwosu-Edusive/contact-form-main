@@ -19,6 +19,10 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     if (lastName === ''){
         errorMessages.push('Last Name is required');
     }
+
+    if (message === ''){
+        errorMessages.push('Message is required');
+    }
     
     // Check if email is filled out and valid
     if (email === '') {
